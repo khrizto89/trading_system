@@ -1,0 +1,28 @@
+{
+    "system": {
+      "name": "Trading System IA",
+      "environment": "development"
+    },
+    "trading_mode": "paper",
+    "binance": {
+      "testnet": true,
+      "api_key": "",
+      "api_secret": ""
+    },
+    "database": {
+      "path": "trading_system.db"
+    },
+    "notifications": {
+      "enabled": true,
+      "telegram_token": "",
+      "chat_id": ""
+    },
+    "traders": {
+      "btc": {
+        "enabled": true
+      },
+      "eth": {
+        "enabled": true
+      }
+    }
+  }

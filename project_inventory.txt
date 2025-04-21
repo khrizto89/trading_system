@@ -1,0 +1,55 @@
+✅ [320 líneas, 14440 bytes] additional_crear_arquitectura.py
+✅ [177 líneas, 7372 bytes] additional_inventario.py
+✅ [94 líneas, 5581 bytes] additional_load_env.py
+✅ [79 líneas, 4392 bytes] additional_main.py
+📁 core/
+  📁 core\features/
+    ✅ [70 líneas, 3770 bytes] core\features\feature_extractor.py
+    ✅ [64 líneas, 3468 bytes] core\features\market_features.py
+    ✅ [75 líneas, 3685 bytes] core\features\technical_features.py
+  📁 core\models/
+    📁 core\models\architectures/
+      ✅ [41 líneas, 2149 bytes] core\models\architectures\baseline_model.py
+      ✅ [73 líneas, 3445 bytes] core\models\architectures\lstm_model.py
+      ✅ [142 líneas, 6414 bytes] core\models\architectures\transformer_model.py
+    ✅ [114 líneas, 5590 bytes] core\models\ensembler.py
+    ✅ [25 líneas, 1331 bytes] core\models\model_manager.py
+  📁 core\optimization/
+    ✅ [118 líneas, 5207 bytes] core\optimization\gpu_optimizer.py
+    ✅ [61 líneas, 3067 bytes] core\optimization\gpu_utils.py
+  📁 core\strategy/
+    ✅ [106 líneas, 5558 bytes] core\strategy\position_manager.py
+    ✅ [125 líneas, 6266 bytes] core\strategy\risk_manager.py
+    ✅ [102 líneas, 5360 bytes] core\strategy\signal_generator.py
+  📁 core\utils/
+    ✅ [19 líneas, 1101 bytes] core\utils\config.py
+    ✅ [109 líneas, 5452 bytes] core\utils\indicators.py
+    ✅ [58 líneas, 2758 bytes] core\utils\logging.py
+📁 services/
+  📁 services\api_service/
+    ✅ [103 líneas, 5302 bytes] services\api_service\notification.py
+    ✅ [92 líneas, 4817 bytes] services\api_service\rest_api.py
+  📁 services\data_service/
+    ✅ [90 líneas, 3837 bytes] services\data_service\binance_connector.py
+    ✅ [91 líneas, 4120 bytes] services\data_service\data_processor.py
+    ✅ [196 líneas, 8663 bytes] services\data_service\database.py
+  📁 services\learning/
+    ✅ [160 líneas, 6534 bytes] services\learning\backtesting.py
+    ✅ [131 líneas, 5651 bytes] services\learning\trainer.py
+  📁 services\monitor_service/
+    ✅ [124 líneas, 5152 bytes] services\monitor_service\dashboard.py
+    ✅ [89 líneas, 4218 bytes] services\monitor_service\system_monitor.py
+    ✅ [104 líneas, 4476 bytes] services\monitor_service\trading_monitor.py
+📁 tools/
+  ✅ [124 líneas, 5152 bytes] tools\run_dashboard.py
+📁 traders/
+  📁 traders\btc_trader/
+    ✅ [108 líneas, 5849 bytes] traders\btc_trader\btc_trader.py
+    ✅ [39 líneas, 1713 bytes] traders\btc_trader\config.py
+  📁 traders\eth_trader/
+    ✅ [38 líneas, 1664 bytes] traders\eth_trader\config.py
+    ✅ [110 líneas, 6034 bytes] traders\eth_trader\eth_trader.py
+  📁 traders\template/
+    ✅ [59 líneas, 2898 bytes] traders\template\config.py
+    ✅ [86 líneas, 3769 bytes] traders\template\template_trader.py
+  ✅ [104 líneas, 4754 bytes] traders\trader_base.py

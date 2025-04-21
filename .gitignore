@@ -1,0 +1,23 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Conda env
+.env
+*.env
+env/
+venv/
+.trading_IA/
+
+# VSCode
+.vscode/
+
+# Logs y datos temporales
+logs/
+*.log
+backtesting_results/
+models/
+
+# Sistema
+.DS_Store
+Thumbs.db
